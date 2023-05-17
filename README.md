@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Mi Proyecto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido a mi proyecto! Este es un proyecto increíble que resuelve el ordenar tareas de manera mas practica y sin el uso de papel
+## Características 🚀
 
-## Available Scripts
+- ✨ [Característica 1]: Login dinamico con boton que se habilita solo si los input estan llenos.
+- ✨ [Característica 2]: Vista de lista de tareas con boton para agregar y eliminar.
+- ✨ [Característica 3]: La tarea solamente se elimina si el input esta vacio asi no se borran tareas por error.
 
-In the project directory, you can run:
+## Capturas de Pantalla 📷
 
-### `npm start`
+se prodan encontrar en la carpeta src/assets/capturas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalación 💻
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
 
-### `npm test`
+1. 📥 Clona este repositorio en tu máquina local utilizando el siguiente comando:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```
+   git clone 
+   ```
 
-### `npm run build`
+2. 📂 Ve al directorio del proyecto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
+   cd mi-proyecto
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. ⚙️ Instala las dependencias utilizando el administrador de paquetes [NPM](https://www.npmjs.com/):
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
+   npm install
+   ```
 
-### `npm run eject`
+4. ▶️ Inicia la aplicación:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. 🌐 Abre tu navegador web y accede a [http://localhost:3000](http://localhost:3000) para ver la aplicación en funcionamiento.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Uso 📖
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Para el uso de esta aplicacion hay que digital un correo valido ya que si no no se habilitara el boton de login gracias a la validacion que comprueba 
+que tenga el @ de la siguiente manera
 
-## Learn More
+ <!-- // Validar el correo electrónico
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (value && !emailRegex.test(value)) {
+      setEmailError('Correo electrónico inválido');
+    } else {
+      setEmailError('');
+    }
+  }; -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Contribución 👥
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+¡Contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
-### Analyzing the Bundle Size
+1. 🍴 Haz un fork de este repositorio.
+2. 🌿 Crea una rama nueva para tu contribución.
+3. 🛠️ Realiza los cambios necesarios y haz commit de tus modificaciones.
+4. 🔃 Envía un pull request con tus cambios.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Soporte 🤝
 
-### Making a Progressive Web App
+Si tienes alguna pregunta, problema o sugerencia relacionada con este proyecto, por favor abre un [issue](https://github.com/tu-usuario/mi-proyecto/issues) en este repositorio.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Licencia 📄
 
-### Advanced Configuration
+Este proyecto está bajo la Licencia Andres Felipe Cristancho Lara 2023 todos los derechos reservados  ©
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por visitar mi proyecto! Espero que encuentres útil esta herramienta y que te diviertas usándola. Si tienes alguna sugerencia o comentario, no dudes en contactarme. ¡Disfruta! 😄✨# todo-list-login
