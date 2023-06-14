@@ -36,7 +36,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto en tu máquina local:
 4. ▶️ Inicia la aplicación:
 
    ```
-   npm start
+   npm start // npm run dev
    ```
 
 5. 🌐 Abre tu navegador web y accede a [http://localhost:3000](http://localhost:3000) para ver la aplicación en funcionamiento.
